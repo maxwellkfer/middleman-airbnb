@@ -7,15 +7,15 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title></title>
-    <link href="stylesheets/application-93ae123c.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <link href="../stylesheets/application-93ae123c.css" rel="stylesheet" />
+    <script src="../javascripts/application-93de88c9.js"></script>
+    <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
     <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <img src="images/logo-acc9c0ec.png" id="logo" alt="Logo" />
+    <img src="../images/logo-acc9c0ec.png" id="logo" alt="Logo" />
   </a>
 
   <!-- Right Navigation -->
@@ -53,20 +53,52 @@
 </div>
 
 
-    <ul class="list-inline text-center">
-    <li>
-      <img src="https://kitt.lewagon.com/placeholder/users/maxwellkfer" class="img-circle" width="150" alt="Maxwellkfer" />
-      <h3>Maxwellkfer</h3>
-    </li>
-    <li>
-      <img src="https://kitt.lewagon.com/placeholder/users/epero" class="img-circle" width="150" alt="Epero" />
-      <h3>Epero</h3>
-    </li>
-    <li>
-      <img src="https://kitt.lewagon.com/placeholder/users/sabrina_cate" class="img-circle" width="150" alt="Sabrina cate" />
-      <h3>Sabrina_cate</h3>
-    </li>
-</ul>
+    <!-- source/flats/show.html.erb -->
+
+<!-- Access data.flats with owner's name as key -->
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 50%), url('https://kitt.lewagon.com/placeholder/cities/rennes'); height: 50vh; background-position: center;">
+</div>
+
+<!-- Inject flat data in template -->
+<div class="container">
+  <img src="https://kitt.lewagon.com/placeholder/users/maxwellkfer" class="img-circle" width="100" alt="Maxwellkfer" />
+  <p>Maxime's home</p>
+  <h1>Wonderful place in Rennes</h1>
+  <p>Rennes, France</p>
+
+  <i class="fa fa-star" style="color: #ffb400"></i>
+  <i class="fa fa-star" style="color: #ffb400"></i>
+  <i class="fa fa-star" style="color: #ffb400"></i>
+  <i class="fa fa-star" style="color: #ffb400"></i>
+  <i class="fa fa-star" style="color: #ffb400"></i>
+
+  <form action="">
+            <h1 class="text-center">Book this flat</h1>
+            <div class="row">
+              <div class="col-xs-6">
+                <div class="form-group">
+                  <label for="first-name">Check in</label>
+                  <input type="text" class="form-control" id="first-name" placeholder="Check in">
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <div class="form-group">
+                  <label for="last-name">Check out</label>
+                  <input type="text" class="form-control" id="last-name" placeholder="Check out">
+                </div>
+              </div>
+            </div>
+            <!-- Rest of the form -->
+
+
+            <input type="submit" value="Book it" class="btn btn-primary">
+          </form>
+
+
+</div>
+
+
+
 
     <div class="footer">
   <div class="footer-links">
